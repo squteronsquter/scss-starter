@@ -1,4 +1,4 @@
 //
 console.log('------------------------------------');
-console.log('Hello form Starter Project');
+console.log('Hello from Starter Project');
 console.log('------------------------------------');
