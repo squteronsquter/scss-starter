@@ -1,0 +1,13 @@
+.utilitiesTextCenter {
+  text-align: center;
+}
+
+.utilitiesTextRight {
+  text-align: right;
+}
+
+.utilitiesTextLargeRight {
+  @include largeUp {
+    text-align: right !important;
+  }
+}

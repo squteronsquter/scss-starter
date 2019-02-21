@@ -1,0 +1,18 @@
+.utilitiesMbOne {
+  margin-bottom: $gridBase;
+}
+
+.utilitiesMbTwo {
+  margin-bottom: $gridBase * 2;
+}
+
+.utilitiesMbThree {
+  margin-bottom: $gridBase * 3;
+}
+
+.hr {
+  display: block;
+  height: 50px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid $white;
+}

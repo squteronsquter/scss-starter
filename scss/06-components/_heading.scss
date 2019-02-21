@@ -1,0 +1,47 @@
+.componentHeading {
+  font-family: $headingFonts;
+
+  &--levelOne {
+    font-size: $fontSizeTwo;
+    letter-spacing: $letterSpacingCondensed;
+
+    @include largeUp {
+      font-size: $fontSizeOne;
+    }
+  }
+
+  &--levelTwo {
+    font-size: $fontSizeThree;
+    letter-spacing: $letterSpacingCondensed;
+    margin-bottom: $gridBase * 0.5;
+
+    @include largeUp {
+      font-size: $fontSizeTwo;
+      line-height: 0.93;
+    }
+  }
+
+  &--levelThree {
+    font-size: $fontSizeThree;
+  }
+
+  &--levelFour {
+    font-size: $fontSizeFour;
+  }
+
+  &--levelFive {
+    font-size: $fontSizeFive;
+  }
+
+  &--levelSix {
+    font-size: $fontSizeSix;
+  }
+
+  &--upper {
+    text-transform: uppercase;
+  }
+
+  &--white {
+    color: $white;
+  }
+}

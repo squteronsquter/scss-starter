@@ -1,0 +1,31 @@
+.templateOurCompany {
+  padding-bottom: $gridBase * 6;
+  padding-top: $gridBase * 9;
+
+  &__left {
+    margin-bottom: $gridBase * 4;
+
+    @include mediumUp {
+      margin-bottom: 0;
+    }
+  }
+
+  &__right {
+    text-align: center;
+
+    @include mediumUp {
+      padding-right: $gridBase * 3;
+      text-align: right;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__btn {
+    margin-right: $gridBase * 3;
+    margin-bottom: $gridBase * 2.5;
+  }
+}

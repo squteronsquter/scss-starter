@@ -1,0 +1,12 @@
+.componentIconBox {
+  text-align: center;
+
+  &__image {
+    margin-bottom: $gridBase * 2;
+  }
+
+  &__text {
+    font-size: $fontSizeEight;
+    margin-top: $gridBase;
+  }
+}

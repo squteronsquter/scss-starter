@@ -1,0 +1,21 @@
+.templateSiteFooter {
+  &__main {
+    padding-bottom: $gridBase * 3;
+    padding-top: $gridBase * 4;
+  }
+
+  &__header {
+    align-items: flex-end;
+    display: flex;
+    height: $gridBase * 5;
+    margin-bottom: $gridBase * 2;
+  }
+
+  &__copy {
+    background-color: $grayLight;
+    color: $primary;
+    font-size: $fontSizeNine;
+    padding-bottom: $gridBase * 2.5;
+    padding-top: $gridBase * 2.5;
+  }
+}

@@ -1,0 +1,15 @@
+.objContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gutter;
+  padding-right: $gutter;
+  width: 100%;
+
+  @include mediumUp {
+    max-width: 768px;
+  }
+
+  @include largeUp {
+    max-width: 1140px;
+  }
+}

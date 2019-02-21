@@ -1,0 +1,7 @@
+.componentPagination {
+  &__item {
+    font-weight: bold;
+    margin-left: $gridBase * 0.5;
+    margin-right: $gridBase * 0.5;
+  }
+}

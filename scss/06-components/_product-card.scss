@@ -1,0 +1,103 @@
+.componentProductCard {
+  margin-bottom: $gridBase * 4;
+
+  &__top {
+    background-color: $white;
+    height: $gridBase * 31;
+    margin-bottom: $gridBase * 2;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__picture {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__cart {
+    align-items: center;
+    background-color: $grayLight;
+    bottom: $gridBase * 1.5;
+    justify-content: space-between;
+    display: flex;
+    height: $gridBase * 4;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 220px;
+  }
+
+  &__cart-icon {
+    text-align: center;
+    flex: 0 0 20%;
+  }
+
+  &__cart-text {
+    border-left: 1px solid $white;
+    border-right: 1px solid $white;
+    color: $grayDark;
+    flex: 0 0 60%;
+    font-size: $fontSizeSeven;
+    font-weight: bold;
+    line-height: $gridBase * 4;
+    text-transform: uppercase;
+  }
+
+  &__meta {
+    display: flex;
+    font-size: $fontSizeSix;
+    justify-content: space-between;
+  }
+
+  &__color {
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+
+    &--one {
+      background-color: #dabdfe;
+    }
+
+    &--two {
+      background-color: #febdbd;
+    }
+
+    &--three {
+      background-color: #fecfbd;
+    }
+
+    &--four {
+      background-color: #bde6fe;
+    }
+
+    &--five {
+      background-color: #fedabd;
+    }
+
+    &--six {
+      background-color: #e6bdfe;
+    }
+
+    &--seven {
+      background-color: #458a5c;
+    }
+
+    &--eight {
+      background-color: #8a6245;
+    }
+
+    &--nine {
+      background-color: #3f5587;
+    }
+  }
+
+  &__price {
+    display: block;
+    font-size: $fontSizeFour;
+    font-weight: bold;
+  }
+}

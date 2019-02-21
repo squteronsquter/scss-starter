@@ -1,0 +1,29 @@
+.componentInput {
+  background-color: $primaryLight;
+  border: none;
+  border-radius: $borderRadius;
+  color: $white;
+  font-size: $fontSizeEight;
+  font-weight: 700;
+  padding: 1rem 2.5rem;
+  outline: none;
+  text-transform: uppercase;
+
+  &::placeholder {
+    color: $white;
+  }
+
+  &::-moz-placeholder {
+    color: $white;
+    opacity: 1;
+  }
+
+  &:-ms-placeholder {
+    color: $white;
+  }
+
+  &--newsletter {
+    border-radius: $borderRadius 0 0 $borderRadius;
+    padding: 0.7rem 1.5rem;
+  }
+}

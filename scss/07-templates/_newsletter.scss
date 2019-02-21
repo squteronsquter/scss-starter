@@ -1,0 +1,51 @@
+.templateNewsletter {
+  background-color: $primary;
+  padding-bottom: $gridBase * 3;
+  padding-top: $gridBase * 3;
+
+  &__content {
+    @include largeUp {
+      padding-left: $gridBase * 8;
+      padding-right: $gridBase * 8;
+    }
+  }
+
+  &__heading {
+    color: $white;
+    margin-bottom: $gridBase * 2;
+
+    @include largeUp {
+      margin-bottom: 0;
+    }
+  }
+
+  &__headingFirst {
+    display: block;
+    font-size: $fontSizeFour;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+  &__headingSecond {
+    display: block;
+    font-size: $fontSizeFive;
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__input {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: $gridBase * 2;
+    margin-right: $gridBase * 2;
+
+    @include mediumUp {
+      flex: 0 0 75%;
+      max-width: 75%;
+      margin-bottom: 0;
+    }
+  }
+}

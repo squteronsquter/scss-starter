@@ -1,0 +1,22 @@
+.componentNav {
+  &__item {
+    display: block;
+    font-size: $fontSizeSeven;
+    padding-bottom: $gridBase * 0.75;
+    padding-top: $gridBase * 0.75;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:hover {
+      color: $primary;
+    }
+
+    @include largeUp {
+      display: inline-block;
+      margin-left: $gridBase * 2;
+      margin-right: $gridBase * 2;
+      width: auto;
+    }
+  }
+}

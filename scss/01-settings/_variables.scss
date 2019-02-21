@@ -1,0 +1,60 @@
+// import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700&subset=latin-ext');
+
+$paragraphFonts: 'Montserrat', sans-serif;
+$headingFonts: 'Merriweather', serif;
+
+// colors
+$white: #ffffff;
+$purple: #800180;
+$black: #000000;
+$gray: #c2c2c2;
+$grayLight: #f8f8f8;
+$grayDark: #898989;
+$grayDeepDark: #444444;
+$graynactive: #d1d1d1;
+$blueDark: #3e5cc5;
+$blueLight: #d3eafa;
+$blueText: #3b99e1;
+$green: #60dc64;
+$accent: #ffa40b;
+
+$primary: #4f5d6f;
+$primaryLight: #7487a2;
+
+$blueGradient: linear-gradient(45deg, #3e5cc5 0%, #5b8af8 100%);
+$yellowGradient: linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
+
+// Text
+$fontSizeBase: 1rem;
+$fontSizeOne: $fontSizeBase * 3.75; // ~60px
+$fontSizeTwo: $fontSizeBase * 2.69; // ~43px
+$fontSizeThree: $fontSizeBase * 1.875; // ~30px
+$fontSizeFour: $fontSizeBase * 1.5; // ~24px
+$fontSizeFive: $fontSizeBase * 1.125; // ~18px
+$fontSizeSix: $fontSizeBase * 1; // ~16px
+$fontSizeSeven: $fontSizeBase * 0.875; // ~14px
+$fontSizeEight: $fontSizeBase * 0.75; // ~12px
+$fontSizeNine: $fontSizeBase * 0.625; // ~10px
+
+$fontWeightLight: 200;
+$fontWeightNormal: 400;
+$fontWeightBold: 700;
+
+$lineHeightBase: 1.2;
+$lineHeightSm: 1.2;
+$lineHeightLg: 1.5;
+
+$letterSpacingCondensed: -0.025rem;
+
+// Grid
+$gridBase: 10px;
+$gutter: $gridBase * 1.5;
+
+// Roundings
+$borderRadius: $gridBase * 0.5;
+
+// Breakpoint
+$bpMedium: '800px';
+$bpLarge: '1200px';

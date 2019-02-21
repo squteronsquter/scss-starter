@@ -1,0 +1,22 @@
+.templateFeature {
+  padding-bottom: $gridBase * 3;
+  padding-top: $gridBase * 3;
+
+  @include mediumUp {
+    padding-bottom: $gridBase * 7;
+    padding-top: $gridBase * 7;
+  }
+
+  &__firstCol {
+    margin-bottom: $gridBase * 3;
+
+    @include mediumUp {
+      margin-bottom: 0;
+    }
+  }
+
+  &__text {
+    margin-bottom: $gridBase * 7;
+    margin-top: $gridBase * 4;
+  }
+}

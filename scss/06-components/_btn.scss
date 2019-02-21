@@ -1,0 +1,70 @@
+.componentButton {
+  border: none;
+  border-radius: $borderRadius;
+  display: inline-block;
+  font-size: $fontSizeEight;
+  font-weight: 700;
+  line-height: $lineHeightSm;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &--primary {
+    background-color: $primary;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($primary, 15%);
+      color: $white;
+    }
+  }
+  &--accent {
+    background-color: $accent;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($accent, 15%);
+      color: $white;
+    }
+  }
+  &--blue {
+    background-color: $blueDark;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($blueDark, 15%);
+      color: $white;
+    }
+  }
+
+  &--blue-light {
+    background-color: $blueLight;
+    color: $white;
+
+    &:hover {
+      background-color: darken($blueLight, 15%);
+      color: $white;
+    }
+  }
+
+  &--light {
+    background-color: $primaryLight;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($primaryLight, 15%);
+      color: $white;
+    }
+  }
+
+  &--small {
+    font-size: $fontSizeSeven;
+    font-weight: normal;
+    padding: 0.5rem 0.85rem;
+  }
+}

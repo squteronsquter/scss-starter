@@ -1,0 +1,11 @@
+.componentLabel {
+  display: block;
+  font-size: $fontSizeFive;
+  font-weight: bold;
+  letter-spacing: $letterSpacingCondensed;
+  text-transform: uppercase;
+
+  @include largeUp {
+    font-size: $fontSizeThree;
+  }
+}

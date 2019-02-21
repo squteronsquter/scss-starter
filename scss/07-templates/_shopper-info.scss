@@ -1,0 +1,13 @@
+.templateShopperInfo {
+  background-color: $grayLight;
+  padding-bottom: $gridBase * 6;
+  padding-top: $gridBase * 6;
+
+  &__item {
+    margin-bottom: $gridBase * 6;
+
+    @include largeUp {
+      margin-bottom: 0;
+    }
+  }
+}

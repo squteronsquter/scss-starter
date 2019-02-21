@@ -1,0 +1,13 @@
+.templateProductList {
+  background-color: $grayLight;
+
+  & .componentProductSelector {
+    margin-bottom: $gridBase * 5;
+    margin-top: $gridBase * 5;
+  }
+
+  & .componentPagination {
+    margin-bottom: $gridBase * 7;
+    margin-top: $gridBase * 4;
+  }
+}

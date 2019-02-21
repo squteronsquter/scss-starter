@@ -1,0 +1,87 @@
+.templatePromoted {
+  padding-top: $gridBase * 8;
+
+  & .objRow {
+    margin-bottom: $gridBase * 3;
+  }
+
+  &__item {
+    padding-bottom: $gridBase * 6.5;
+    padding-left: $gridBase * 1.5;
+    padding-right: $gridBase * 1.5;
+    padding-top: $gridBase * 6.5;
+
+    &--first {
+      background-color: $accent;
+      padding-bottom: $gridBase * 7;
+      padding-top: $gridBase * 7;
+
+      @include mediumUp {
+        background: url('../images/promo-1.jpg') no-repeat;
+      }
+
+      @include largeUp {
+        padding-left: $gridBase * 7;
+      }
+    }
+
+    &--second {
+      background-color: #2bb9d5;
+
+      @include mediumUp {
+        background: url('../images/promo-2.jpg') no-repeat;
+      }
+
+      @include largeUp {
+        padding-left: $gridBase * 7;
+      }
+
+      & .componentButton {
+        margin-top: $gridBase * 2.5;
+      }
+    }
+
+    &--third {
+      background-color: #f3bbc4;
+
+      @include mediumUp {
+        background: url('../images/promo-3.jpg') no-repeat;
+      }
+
+      @include largeUp {
+        padding-left: $gridBase * 28.5;
+      }
+
+      & .componentButton {
+        margin-top: $gridBase * 2.5;
+      }
+    }
+  }
+
+  &__text {
+    color: $white;
+    font-weight: bold;
+    line-height: $lineHeightSm;
+
+    &--size1 {
+      display: block;
+      font-size: $fontSizeTwo;
+      margin-bottom: $gridBase * 3;
+    }
+
+    &--size2 {
+      display: block;
+      font-size: $fontSizeThree;
+    }
+
+    &--size3 {
+      font-size: $fontSizeThree;
+    }
+  }
+
+  &__code {
+    & .componentButton {
+      margin-left: $gridBase * 2;
+    }
+  }
+}

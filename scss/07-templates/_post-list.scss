@@ -1,0 +1,50 @@
+.templatePostList {
+  background-color: $grayLight;
+  padding-top: $gridBase * 4;
+  position: relative;
+
+  @include largeUp {
+    height: 380px;
+  }
+
+  &__content {
+    padding-bottom: $gridBase * 4;
+
+    @include largeUp {
+      background-color: $grayLight;
+      clip-path: ellipse(68% 450px at 50% 0);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: $gridBase * 8;
+      z-index: 1000;
+    }
+  }
+
+  &__item {
+    margin-bottom: $gridBase * 4;
+
+    @include largeUp {
+      margin-bottom: $gridBase * 2;
+    }
+  }
+
+  &__image {
+    margin-bottom: $gridBase * 2.5;
+    max-width: 349px;
+    position: relative;
+  }
+
+  &__badge {
+    background: $blueGradient;
+    border-radius: $borderRadius 0 0 $borderRadius;
+    color: $white;
+    font-size: $fontSizeFive;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    right: 0;
+  }
+}

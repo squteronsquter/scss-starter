@@ -1,0 +1,11 @@
+# Ignore all node_modules
+/node_modules
+node_modules/
+# Ignore css folder if generated
+/css
+css/
+# Ignore Sass generated files which you do not need
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

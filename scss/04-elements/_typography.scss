@@ -1,0 +1,31 @@
+p {
+  font-family: $paragraphFonts;
+  font-weight: $fontWeightLight;
+  color: $white;
+  font-size: $fontSizeFive;
+  font-weight: $fontWeightLight;
+  line-height: $lineHeightLg;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingFonts;
+  font-weight: $fontWeightLight;
+  font-size: $fontSizeSix;
+  line-height: $lineHeightSm;
+  margin: 0;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  &:hover {
+    color: $primary;
+    text-decoration: underline;
+  }
+}

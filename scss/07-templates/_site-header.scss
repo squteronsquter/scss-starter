@@ -1,0 +1,47 @@
+.templateSiteHeader {
+  margin-bottom: $gridBase * 2;
+  margin-top: $gridBase * 2;
+
+  &__menu {
+    margin-top: $gridBase * 2;
+
+    @include largeUp {
+      text-align: right;
+      margin-top: 0;
+    }
+  }
+
+  &__navButton {
+    @include largeUp {
+      margin-right: 0;
+    }
+  }
+
+  &__hero {
+    padding-bottom: $gridBase * 7;
+    padding-top: $gridBase * 4;
+  }
+
+  &__heroImage {
+    margin-bottom: $gridBase * 3;
+
+    @include mediumUp {
+      margin-bottom: 0;
+    }
+  }
+
+  &__introText {
+    color: $primary;
+    font-size: $fontSizeFour;
+    font-weight: bold;
+    letter-spacing: $letterSpacingCondensed;
+  }
+
+  &__buttons {
+    margin-top: $gridBase * 5;
+  }
+
+  &__firstButton {
+    margin-right: $gridBase;
+  }
+}

@@ -1,0 +1,11 @@
+.t-ourAdvantages {
+  padding-top: $gridBase * 6;
+
+  &__item {
+    margin-bottom: $gridBase * 4;
+
+    @include largeUp {
+      margin-bottom: $gridBase * 12;
+    }
+  }
+}

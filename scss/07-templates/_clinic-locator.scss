@@ -1,0 +1,46 @@
+.templateClinicLocator {
+  background: $blueGradient;
+  padding-bottom: $gridBase * 4.5;
+  padding-top: $gridBase * 4;
+
+  @include largeUp {
+    background: url('../images/map.png') 10% 80% no-repeat, $blueGradient;
+    padding-top: $gridBase * 20;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+    width: 100%;
+
+    @include largeUp {
+      max-width: 500px;
+      text-align: right;
+    }
+  }
+
+  &__heading {
+    margin-bottom: $gridBase * 1.5;
+  }
+
+  &__subheading {
+    color: $white;
+    margin-bottom: $gridBase * 4;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: $gridBase * 2.5;
+  }
+
+  &__btn {
+    margin-bottom: $gridBase * 1.5;
+    margin-left: $gridBase * 1.5;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.componentList {
+  &__item {
+    line-height: $lineHeightLg;
+    margin-bottom: $gridBase * 2;
+
+    &--compact {
+      margin-bottom: $gridBase * 1.25;
+    }
+  }
+
+  &__icon {
+    background: url('../images/angle-right.png') 0 50% no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 26px;
+  }
+
+  &--unstyled {
+    list-style-type: none;
+  }
+}

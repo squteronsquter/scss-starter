@@ -1,0 +1,17 @@
+.componentProductSelector {
+  display: inline-block;
+
+  &__item {
+    display: block;
+    color: $grayDeepDark;
+    font-size: $fontSizeSix;
+    text-transform: uppercase;
+    margin-bottom: $gridBase * 2;
+
+    @include largeUp {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: $gridBase * 5;
+    }
+  }
+}

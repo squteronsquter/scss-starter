@@ -1,0 +1,28 @@
+.templatJobOffers {
+  &__intro {
+    padding-bottom: $gridBase * 7;
+    padding-top: $gridBase * 7;
+  }
+
+  &__introLeft {
+    margin-bottom: $gridBase * 3;
+
+    @include mediumUp {
+      margin-bottom: 0;
+    }
+  }
+
+  &__introRight {
+    @include mediumUp {
+      text-align: right;
+    }
+  }
+
+  &__offers {
+    padding-bottom: $gridBase * 3;
+  }
+
+  &__item {
+    margin-bottom: $gridBase * 2;
+  }
+}
